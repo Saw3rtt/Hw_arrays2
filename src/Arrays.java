@@ -35,12 +35,11 @@ public class Arrays {
         System.out.println("Минимальная сумма трат за день составила " + min + " рублей");
         System.out.println("Максимальная сумма трат за день составила " + max + " рублей");
         //task3
-        double days = 30;
         double total1 = 0;
         for (int i = 0; i < arr.length; i++) {
             total1 += arr[i];
         }
-        System.out.printf("Средняя сумма трат за месяц составила %.2f рублей", total1 / days);
+        System.out.printf("Средняя сумма трат за месяц составила %.2f рублей", total1 / arr.length);
         //task4
         System.out.println();
         char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
